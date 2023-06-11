@@ -1,0 +1,108 @@
+body{    
+       margin: 0;
+       padding: 0; 
+       font-family: 'Roboto', sans-serif;
+}
+section {
+        width: 100%;
+        height: auto;
+        background: linear-gradient(
+        115deg,
+        rgba(58, 58, 158, 0.3),
+        rgba(136, 136, 206, 0.3)
+        ),url(a.jpeg); 
+        background-size: cover;
+        overflow: hidden;        
+}
+
+.h1 {
+    padding: 50px;
+    text-align: center;
+    font-size: large;
+    box-sizing: content-box;
+    max-width: auto;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+
+}
+
+.ref { 
+     border-width: 3px;
+     padding: 2px;
+     margin: 3px;
+     border-color: black;
+}
+
+.form {
+    border-width: 3px;
+    padding: 2px;
+    margin: 3px;
+    border-color: black;
+}
+
+.label-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.23rem;
+    box-sizing: border-box;
+    font-size: 25px;
+    width: 50%;
+    padding: 90px;
+    margin-bottom: 100px;
+    background-color: skyblue;
+    opacity: 0.7;
+    border-radius: 60px 20px;
+    cursor: pointer;
+}
+/*.form input[type="checkbox"],.form input[type="radio"] {
+        display: block;
+}*/
+
+.display-block {
+    word-spacing: normal;
+    border-width: 20%;
+    display: block;
+    padding: 10px;       
+}
+
+textarea[type=text] {
+    display: block;
+    margin-right: auto;
+    width: 100%;
+    border-width: ;
+}
+
+textarea[type=text]:focus {
+  border: 3px solid #555;
+}
+.sugestion {
+    border-width: 3px solid black;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: blueviolet;
+  color: white;
+  padding: 15px 22px;
+  margin: 7px 0;
+  border: 2px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#pop:hover
+{
+  background-color: palevioletred;
+  opacity: 0.7;
+
+}

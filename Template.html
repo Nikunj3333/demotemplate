@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>teMPLATE</title>
+        <link rel="stylesheet" href="Template.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section>
+        <div class="h1">
+            <h1>W3School Survey Form</h1>
+           <b> <p class="p">Thank you for taking the time to help us improve the platform</p></b>
+        </div>
+        <div class="label-group">
+            <div class="info">
+            <form>
+                <label class="info" for="name">Name
+                <input name="name" type="text" class="info" placeholder="Enter Your Name" required>
+                </label>
+
+                <label class="info" for="email">Email
+                <input name="email" type="text" class="info" placeholder="Enter Your email" required>
+                </label>
+                
+                <label class="info" for="age">Age   
+                <span>(optional)</span>
+                </label>
+
+                <label>   
+                    <input type="text"name="age" class="info" id="number" min="10" max="70" placeholder="Age"required>
+                </label>
+            </form>
+            </div>
+            
+                <div class="ref">
+                <p class="ref">Which option best describes your current role?</p>
+                    <select name="role" class="ref" required>
+                        <option disabled selected value=>Select Role</option>
+                        <option value="student">Student</option>
+                        <option value="full time job">Full Time Job</option>
+                        <option value="learner">learner</option>
+                        <option value="Preferno">Prefer not to say</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="display-block">
+                <p>Would you recommend W3School to a friend?</p>
+
+                <label class="display-block">
+                  <input name="user"type="radio" value="Definitely" checked>Definitely
+                </label>
+
+                <label class="display-block">
+                 <input name="user" type="radio"value="Maybe">Maybe
+                </label>
+
+                <label class="display-block">
+                <input name="user" type="radio" value="Not sure">Not sure
+                </label>
+
+                </div> 
+
+                <div class="form">
+                    <p class="form">What is your favorite features of W3School?</p>
+                    <select class="form">
+                        <option disabled selected value>Select an favorite</option>
+                        <option value="Challenge">Challenge</option>
+                        <option value="project">Project</option>
+                        <option value="community">Community</option>
+                        <option value="OpenSource">Open Source</option>
+                    </select>
+                </div>
+
+            <div class="display-block">
+                    <p class="display-block">What Would you like to see improved <span>(Check all that apply)</span></p>
+
+                    <label class="display-block">
+                        <input name="check-box" type="checkbox">Front-end
+                    </label>
+
+                    <label class="display-block">
+                        <input name="check-box" type="checkbox">Back-end
+                    </label>
+
+                    <label class="display-block">
+                        <input name="check-box" type="checkbox">Fullstack-end
+                    </label>
+
+                    <label class="display-block">
+                        <input name="check-box" type="checkbox">Data visilution
+                    </label>
+
+                    <label class="display-block">
+                        <input name="check-box" type="checkbox">Data Analtics
+                    </label>
+
+                    <label class="display-block">
+                        <input name="check-box" type="checkbox">Game Devloper
+                    </label>
+
+                    <label class="display-block">
+                        <input name="check-box" type="checkbox">Digital Marketing
+                    </label>
+
+                    <label class="display-block">
+                        <input name="check-box" type="checkbox">Video
+                    </label>
+            </div>  
+            <div class="suggestion">
+            <p class="suggestion">Any Your Sugestions?</p>
+                <textarea class="suggestion"rows="5" cols="50">Enter Your Suggestion Here...</textarea>
+             <input class="suggestion"type="submit" value="Submit" id="pop">
+            </div>
+      </section>                  
+    </body>
+</html>
+
